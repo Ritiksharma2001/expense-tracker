@@ -1,0 +1,39 @@
+{
+  "name": "expense-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ritiksharma2001/expense-tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Ritiksharma2001/expense-tracker/issues"
+  },
+  "homepage": "https://ritiksharma2001.github.io/expense-tracker",
+  "dependencies": {
+    "autotable": "^1.0.0",
+    "file-saver": "^2.0.5",
+    "jspdf": "^3.0.0",
+    "jspdf-autotable": "^5.0.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "vite": "^6.2.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react-swc": "^3.8.0",
+    "gh-pages": "^6.3.0"
+  }
+}

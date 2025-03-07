@@ -1,0 +1,143 @@
+/* styles.css */
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Expense Tracker Container */
+.expense-tracker {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+/* Form Styling */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, button {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+/* Expense List */
+.expense-list {
+  margin-top: 20px;
+}
+
+.expense-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.expense-item button {
+  background: red;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.expense-item button:hover {
+  background: darkred;
+}
+
+/* Arrange Expense Form & Filter by Date Side by Side */
+.form-filter-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Expense Form (Left Side) */
+.expense-form {
+  flex: 1;
+  margin-right: 20px;
+}
+
+/* Date Filter (Right Side) */
+.filter {
+  flex: 0.5;
+  text-align: right;
+}
+
+.filter input {
+  padding: 8px;
+  font-size: 14px;
+  width: 100%;
+}
+
+/* Total Expense (Below Both) */
+.total {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #28a745;
+}
+
+/* Download Button */
+/* Download Button */
+.download-btn {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 15px;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.download-btn:hover {
+  background-color: #218838;
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 500px) {
+  .expense-tracker {
+    width: 90%;
+  }
+}
