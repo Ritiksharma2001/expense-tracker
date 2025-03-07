@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/Ritiksharma2001/expense-tracker/issues"
   },
-  "homepage": "https://github.com/Ritiksharma2001/expense-tracker#readme",
+  "homepage": "https://ritiksharma2001.github.io/expense-tracker",
   "dependencies": {
     "autotable": "^1.0.0",
     "file-saver": "^2.0.5",
