@@ -6,9 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "repository": {
     "type": "git",
@@ -21,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/Ritiksharma2001/expense-tracker/issues"
   },
-  "homepage": "https://ritiksharma2001.github.io/expense-tracker",
+  "homepage": "https://github.com/Ritiksharma2001/expense-tracker#readme",
   "dependencies": {
     "autotable": "^1.0.0",
     "file-saver": "^2.0.5",
